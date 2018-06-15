@@ -9,14 +9,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Creative - Start Bootstrap Theme</title>
+    <title>HRI - Design Project 3</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
     <!-- Custom Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
 
     <!-- Plugin CSS -->
@@ -24,6 +24,7 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
+    <link rel="stylesheet" href="css/custom.css" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -46,7 +47,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo.png" width=200 height=40 alt="bloom logo"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -56,13 +57,16 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#features">Features</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#team">Team</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#inspirations">Inspirations</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#design-process">Design Process</a>
                     </li>
                 </ul>
             </div>
@@ -74,10 +78,10 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1>Your Favorite Source of Free Bootstrap Themes</h1>
+                <h1>Bloom</h1>
                 <hr>
-                <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                <p>Bloom helps groups collaborate more effectively by transforming <b>destructive conflict</b> into <b>constructive conflict.</b></p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Learn about Bloom</a>
             </div>
         </div>
     </header>
@@ -85,21 +89,26 @@
     <section class="bg-primary" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">We've got what you need!</h2>
+                <div class="col-sm-8 text-center">
+                    <h2 class="section-heading">About Bloom</h2>
                     <hr class="light">
-                    <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-                    <a href="#" class="btn btn-default btn-xl">Get Started!</a>
+                    <p>Bloom is designed to promote constructive (situational-focused) conflict using three key features.
+                    Through a Wizard of Oz interface, an experimenter monitors conversations for accusatory language, and Bloom responds accordingly.</p>
+                    <a href="#features" class="btn btn-default btn-xl page-scroll">Bloom's Features</a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <img src="img/final-robot.png" height=300 width=200 alt="final robot">
+                    <p>Final Robot Design</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="services">
+    <section id="features">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">At Your Service</h2>
+                    <h2 class="section-heading">Features of Bloom</h2>
                     <hr class="primary">
                 </div>
             </div>
@@ -108,124 +117,168 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
-                        <h3>Sturdy Templates</h3>
-                        <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+                        <i class="fa fa-4x fa-smile-o wow bounceIn text-primary"></i>
+                        <h3>Gaze</h3>
+                        <p class="text-muted">Bloom monitors conversations for accusatory language and rotates to face those who engage in destructive conflict.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>Ready to Ship</h3>
-                        <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+                        <i class="fa fa-4x fa-thumbs-down wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                        <h3>Negative Response</h3>
+                        <p class="text-muted">Bloom wilts to signal destructive conflict and suggests to take an alternative approach to the issue.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                        <h3>Up to Date</h3>
-                        <p class="text-muted">We update dependencies to keep things fresh.</p>
+                        <i class="fa fa-4x fa-thumbs-up wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                        <h3>Positive Response</h3>
+                        <p class="text-muted">When a conflict becomes constructive, Bloom's stem will straighten and adjust back to its upright position.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                        <h3>Made with Love</h3>
-                        <p class="text-muted">You have to make your websites with love these days!</p>
+                        <h3>Empathy</h3>
+                        <p class="text-muted">Our preliminary results indicated that Bloom can stimulate empathy in human companions.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <section class="no-padding" id="portfolio">
+    
+    <section class="bg-primary" id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Our Team</h2>
+                    <hr class="light">
+                    <p>Our team is composed of five students from a variety of different backgrounds and diciplines.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-sm-offset-1 wow bounceIn center">
+                    <img src="img/team/jchen.png" width="150" height="150" alt="Justina Chen">
+                    <h2>Justina C.</h2>
+                </div>
+                <div class="col-md-2 wow bounceIn center">
+                    <img src="img/team/ctraver.png" width="150" height="150" alt="Chris Traver">
+                    <h2>Chris T.</h2>
+                </div>
+                <div class="col-md-2 wow bounceIn center">
+                    <img src="img/team/vvatsal.png" width="150" height="150" alt="Vighnesh Vatsal">
+                    <h2>Vighnesh V.</h2>
+                </div>
+                <div class="col-md-2 wow bounceIn center">
+                    <img src="img/team/achan.png" width="150" height="150" alt="Austin Chan">
+                    <h2>Austin C.</h2>
+                </div>
+                <div class="col-md-2 wow bounceIn center">
+                    <img src="img/team/mkwon.png" width="150" height="150" alt="Minae Kwon">
+                    <h2>Minae K.</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Inspirations for Bloom</h2>
+                <p>Our team drew inspiration for our robot from a variety of prior projects.  Check out some of the prior work produced by each of our team members!</p>
+                <a href="#inspirations" class="btn btn-default btn-xl wow tada page-scroll">Explore Inspirations</a>
+            </div>
+        </div>
+    </aside>
+        
+    <section class="no-padding" id="inspirations">
         <div class="container-fluid">
             <div class="row no-gutter">
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
+                    <a href="https://drive.google.com/file/d/0B8nOli3CWDbKVl93bEs0eG9yR0k/view?usp=sharing" class="portfolio-box">
+                        <img src="img/portfolio/loonies.png" class="img-responsive" alt="The Loonies">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Video
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    The Loonies
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
+                    <a href="https://youtu.be/3NEnFX-q4fk" class="portfolio-box">
+                        <img src="img/portfolio/sally.png" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Video
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Sally the Lost Robot
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
+                    <a href="https://drive.google.com/a/cornell.edu/file/d/0B_TQXjNkPXWjTlVnOTZUQmt6RTQ/view?usp=sharing" class="portfolio-box">
+                        <img src="img/portfolio/tentacle.png" class="img-responsive" alt="Tentacle Robot">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Video
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Tentacle Robot
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/4.jpg" class="img-responsive" alt="">
+                    <a href="https://drive.google.com/file/d/0B8nOli3CWDbKUkpiYzVDZzI5c0E/view?usp=sharing" class="portfolio-box">
+                        <img src="img/portfolio/box-robot.png" class="img-responsive" alt="Box Robot">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Video
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Look Inside Me Robot
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
+                    <a href="https://drive.google.com/open?id=0B0zYn57nHYhLbVc0MXhvUjVGaXM" class="portfolio-box">
+                        <img src="img/portfolio/post-it.png" class="img-responsive" alt="Post It Robot">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Video
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Post-It Robot
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#" class="portfolio-box">
-                        <img src="img/portfolio/6.jpg" class="img-responsive" alt="">
+                    <a href="https://drive.google.com/a/cornell.edu/file/d/0B4tmU4d9eaHkaVBESWRYdjRQTFk/view?usp=sharing" class="portfolio-box">
+                        <img src="img/portfolio/tube-pencil.png" class="img-responsive" alt="Minae DP2">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Video
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Toilet Paper Tube Pencil Robot
                                 </div>
                             </div>
                         </div>
@@ -235,30 +288,143 @@
         </div>
     </section>
 
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Free Download at Start Bootstrap!</h2>
-                <a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a>
-            </div>
-        </div>
-    </aside>
-
-    <section id="contact">
+    <section class="bg-primary" id="design-process">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
-                    <hr class="primary">
-                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
-                </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                    <p>123-456-6789</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
+                    <h2 class="section-heading center">Design Process</h2>
+                    <hr class="light">
+                    <ul class="timeline">
+                        <li>
+                          <div class="timeline-image">
+                            <img class="img-circle img-responsive square" src="img/design-process/duffield.png" alt="Duffield Hall">
+                          </div>
+                          <div class="timeline-panel">
+                            <div class="timeline-heading">
+                              <h3>FIELD OBSERVATION</h3>
+                            </div>
+                            <div class="timeline-body">
+                              <p class="light">We observed students collaborating in Duffield Hall and realized that many had a variety of issues collaborating effectively.</p>
+                              <br>
+                              <a target="_blank" href="https://docs.google.com/document/d/1ES2ke-8GQB_3khEjmwvtE4o8MSll25JV4H6qfVR-Uhc/edit?usp=sharing" class="btn btn-default wow tada">Project Proposal</a>
+                              <a target="_blank" href="https://docs.google.com/presentation/d/1Ako9nQM5vYhw_pJdx2aHT5otborJrlbyVKClsg3oPck/edit#slide=id.p" class="btn btn-default wow tada">Presentation</a>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="timeline-inverted">
+                          <div class="timeline-image">
+                            <img class="img-circle img-responsive square" src="img/design-process/m1.png" alt="Milestone 1">
+                          </div>
+                          <div class="timeline-panel">
+                            <div class="timeline-heading">
+                              <h3>VIDEO INTERACTION ANALYSIS</h3>
+                            </div>
+                            <div class="timeline-body">
+                              <p>We used the information from our field observations to decide on a robot concept and develop three relevant behaviors on which a robot could intervene.</p>
+                              <br>
+                              <a target="_blank" href="https://docs.google.com/document/d/1GfP9a0kARMVSuxPIGXbpjsfsnczd_QGVHyUIo1HGrxE/edit?usp=sharing" class="btn btn-default wow tada">Conflict Case Study</a>
+                              <a target="_blank" href="https://docs.google.com/presentation/d/1RR9OnrErcstpmSs2ABd-SN29crdWxYGoziLage6u2LE/edit?usp=sharing" class="btn btn-default wow tada">Presentation</a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="timeline-image">
+                            <img class="img-circle img-responsive square" src="img/design-process/m3.png" alt="Milestone 3">
+                          </div>
+                          <div class="timeline-panel">
+                            <div class="timeline-heading">
+                              <h3>PROTOTYPING</h3>
+                            </div>
+                            <div class="timeline-body">
+                              <p>We created a concept prototype of our robot using cardboard, as well as developed a benchmarking mind map to further understand the design space.</p>
+                              <br>
+                              <a target="_blank" href="https://docs.google.com/presentation/d/1-q9lwfgHgzLG9R5szAaeTPCLWa1larNarA2dzGXgQjc/edit?usp=sharing" class="btn btn-default wow tada">Presentation</a>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="timeline-inverted">
+                          <div class="timeline-image">
+                            <img class="img-circle img-responsive square" src="img/design-process/m4.png" alt="Milestone 4">
+                          </div>
+                          <div class="timeline-panel">
+                            <div class="timeline-heading">
+                              <h3>TECHNICAL IMPLEMENTATION</h3>
+                            </div>
+                            <div class="timeline-body">
+                              <p>We then built a high-fidelity prototype of our cardboard prototype using wood and arduino servos.</p>
+                              <br>
+                              <a target="_blank" href="https://drive.google.com/folderview?id=0BxXqMLqmHLC-bWwwdWhVR1gzR00&usp=sharing" class="btn btn-default wow tada">Videos</a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="timeline-image">
+                            <img class="img-circle img-responsive square" src="img/design-process/m5.png" alt="Milestone 5">
+                          </div>
+                          <div class="timeline-panel">
+                            <div class="timeline-heading">
+                              <h3>BEHAVIOR DESIGN</h3>
+                            </div>
+                            <div class="timeline-body">
+                              <p>Using our semi-finalized high-fidelity prototype, we began to design and implement behavior designs and interactions for our robot.</p>
+                              <br>
+                              <a target="_blank" href="https://docs.google.com/presentation/d/1_aWKgBEJdIQvcivC-63PmTUBQQsK0Qaui3xR9Cyf1Mw/edit?usp=sharing" class="btn btn-default wow tada">Presentation</a>
+                              <a target="_blank" href="https://drive.google.com/file/d/0B8nOli3CWDbKU1BiNkpIUWlyMzA/view?usp=sharing" class="btn btn-default wow tada">Video</a>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="timeline-inverted">
+                          <div class="timeline-image">
+                            <img class="img-circle img-responsive square" src="img/design-process/m6.png" alt="Milestone 6">
+                          </div>
+                          <div class="timeline-panel">
+                            <div class="timeline-heading">
+                              <h3>CROWDSOURCING</h3>
+                            </div>
+                            <div class="timeline-body">
+                              <p>To learn more about how people interpret our robot's behaviors, we launched a brief survey on Amazon Mechanical Turk to help us determine how it might work in a group task.</p>
+                              <br>
+                              <a target="_blank" href="https://docs.google.com/presentation/d/1GN9WZGtce5ei3tnmV3oQPR7fbG3jZhpX6ovimb8PS6s/edit?usp=sharing" class="btn btn-default wow tada">Presentation</a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="timeline-image">
+                            <img class="img-circle img-responsive square" src="img/design-process/m7.png" alt="Milestone 7">
+                          </div>
+                          <div class="timeline-panel">
+                            <div class="timeline-heading">
+                              <h3>FIELD TESTING</h3>
+                            </div>
+                            <div class="timeline-body">
+                              <p>To evaluate the effectiveness of our robot, we did field testing with participants in a mock conflict scenario.</p>
+                              <br>
+                              <a target="_blank" href="https://drive.google.com/folderview?id=0B8nOli3CWDbKOThLemVzQi05enM&usp=sharing" class="btn btn-default wow tada">User Testing Videos</a>
+                              <a target="_blank" href="https://drive.google.com/file/d/0B0zYn57nHYhLSWNPY3NvaEJxRlU/view?usp=sharing" class="btn btn-default wow tada">Conflict Scenario</a>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="timeline-inverted">
+                          <div class="timeline-image">
+                            <img class="img-circle img-responsive square" src="img/design-process/final-presentation.png" alt="Final Presentation">
+                          </div>
+                          <div class="timeline-panel">
+                            <div class="timeline-heading">
+                              <h3>FINAL PRESENTATION</h3>
+                            </div>
+                            <div class="timeline-body">
+                              <p>For the Project Fair at the end of the class, we created a final presentation documenting the design process of our final robot.</p>
+                              <br>
+                              <a target="_blank" href="https://docs.google.com/presentation/d/14dBn12we2gQhZmQkhGwliEPEdmSNmw49peS_Ymnf058/edit?usp=sharing" class="btn btn-default wow tada">Final Presentation</a>
+                              <a target="_blank" href="https://drive.google.com/file/d/0B0zYn57nHYhLR0dpdG5BdXR4MDg/view?usp=sharing" class="btn btn-default wow tada">Final Paper</a>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive square" src="img/design-process/end.png" alt="The End">
+                            </div>
+                        </li>
+                      </ul>
                 </div>
             </div>
         </div>
